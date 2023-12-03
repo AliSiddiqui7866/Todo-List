@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right,rgb(154, 196, 49),rgb(105, 165, 136))
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.input-container input[type="text"]{
+    width: 70%;
+}
+.input-container input[type="button"]{
+ background-color: rgb(29, 125, 29);
+ font-weight: bold;
+ margin-left: 8px;
+ cursor: pointer;
+ padding: 12px 20px;
+}
+.input-container input[type="button"]:hover{
+    background-color: rgb(17, 156, 17);
+}
+ul{
+    width: 100%;
+    max-width: 450px;
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background:white;
+    padding: 10px 12px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color .5s;
+    
+}
+ul li:hover{
+    background-color: white;
+}
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px;
+
+}
+.editBtn{
+    color: green;
+    background-color: b;
+}
+.deleteBtn{
+    color: red;
+}
